@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import App from "@/components/App";
-import StoreProvider from "@/redux/storeProvider";
+import StoreProvider from "../redux/StoreProvider";
 
 const vazirFont = localFont({
   src: [
